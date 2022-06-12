@@ -1,0 +1,14 @@
+.title {
+    background-color: red;
+    justify-items: center;
+}
+
+.team {
+    display:flex;
+}
+
+.members {
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}

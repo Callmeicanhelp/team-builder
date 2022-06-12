@@ -103,7 +103,7 @@ function createTeam() {
                 createIntern()
             break;
 
-            case 'Cancel':
+            case 'Done':
                 writeToFile(team)
             break;
     
@@ -149,7 +149,7 @@ function init() {
 
 function writeToFile(test) {
     console.log(test);
-    fs.writeFile('team.html', generateHTML(test), err =>
+    fs.writeFile('dist/team.html', generateHTML(test), err =>
         err ? console.log(err) : console.log('Team Load Succcessful!')
     );
 }
