@@ -1,4 +1,4 @@
-const {Manager}= require('../Manager');
+const {Employee, Manager, Engineer, Intern} = require('../Manager');
 
 describe('Manager', () => {
     it('should create an object with a name, id, email, github, and role', () => {
@@ -10,7 +10,7 @@ describe('Manager', () => {
 
         expect(manager.getEmail()).toEqual('Tristin@gmail.com');
 
-        expect(manager.getOfficeNumber()).toEqual(113)
+        expect(manager.getOfficeNumber()).toEqual(18);
 
         expect(manager.getRole()).toEqual('Manager');
     })

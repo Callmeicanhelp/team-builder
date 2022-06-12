@@ -1,9 +1,10 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const {Employee} = require('./Employee');
 const {Manager} = require('./Manager');
 const {Engineer} = require('./Engineer');
 const {Intern} = require('./Intern');
-const generateHTML = require('./src_templateHelperCode/generateHTML');
+const generateHTML = require('./src/generateHTML');
 const team = [];
 
 
@@ -30,7 +31,7 @@ const managerQuestions = [
      {
          type: 'input',
          name: 'email',
-         message: " What is the manager's email?"
+         message: "What is the manager's email?"
      },
      {
          type: 'input',
@@ -53,7 +54,7 @@ const engineerQuestions = [
      {
          type: 'input',
          name: 'email',
-         message: " What is the engineer's email?"
+         message: "What is the engineer's email?"
      },
     {
         type: 'input',
@@ -76,7 +77,7 @@ const internQuestions = [
      {
          type: 'input',
          name: 'email',
-         message: " What is theintern's email?"
+         message: "What is the intern's email?"
      },
      {
          type: 'input',
