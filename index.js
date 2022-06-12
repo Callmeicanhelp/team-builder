@@ -11,7 +11,7 @@ const team = [];
 
 const menu =   {
     type: "list",
-    choices: ["Manager", "Engineer", "Intern", "Cancel"],
+    choices: ["Manager", "Engineer", "Intern", "Done"],
     name: "menu",
     message: "What position do you want to add?",
 
