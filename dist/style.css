@@ -1,14 +1,22 @@
 .title {
     background-color: red;
-    justify-items: center;
+    justify-content: center;
+    text-align: center;
 }
-
-.team {
-    display:flex;
-}
-
-.members {
-  height: 600px;
-  flex-wrap: wrap;
-  align-content: space-between;
-}
+.card {
+    /* Add shadows to create the "card" effect */
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
