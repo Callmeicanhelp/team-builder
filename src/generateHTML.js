@@ -57,6 +57,7 @@ function generateHTML(data) {
                         </ul>
                     </div>
                 </div>
+            </div>    
         </body>
     </html>
     `

@@ -1,4 +1,4 @@
-const {Employee, Manager, Engineer, Intern} = require('../Employee');
+const {Employee} = require('../Employee');
 
 describe('Employee', () => {
     it('should create an object with a name, id, email, and role', () => {

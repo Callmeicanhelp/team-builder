@@ -142,6 +142,16 @@ function createIntern() {
     })
 }
 
+function createEmployee() {
+    inquirer.prompt(employeeQuestions)
+    .then(answers => {
+        console.log(answers)
+        const employee = new Employee(answers.name, answers.id, answers.email, answers.school)
+        team.push(employee)
+        createTeam()
+    })
+}
+
 // Function to initialize app
 function init() {
   createManager()
