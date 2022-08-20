@@ -4,7 +4,7 @@ Welcome to Team Buidler, the application for easy access to the Team Build Gener
 
 This generator will accept inputs from the user(you) about the personnel to be included in this particular team build.
 
-Up running the start up command of " node index.js ", the user will be prompted to choose which type of employee to add.
+Upon running the start up command of " node index.js ", the user will be prompted to choose which type of employee to add.
 
 User's will then choose from Manager, Engineer, and Intern.
 
